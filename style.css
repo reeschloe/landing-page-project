@@ -57,7 +57,8 @@ a {
     padding-left: 300px;
     display: flex;
     flex-direction: column;
-    max-width: 452px
+    max-width: 452px;
+    flex-shrink: 0;
 }
 
 .right {
@@ -163,4 +164,13 @@ button {
 
 .bottom {
     border: 2px solid #e5e7eb;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+    font-weight: 350;
 }
