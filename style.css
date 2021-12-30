@@ -15,6 +15,11 @@ body {
     padding: 8px 300px
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -30,7 +35,7 @@ a {
 
 .large-image {
     height: auto;
-    width: 500px;
+    width: 384px;
 }
 
 .first-section {
@@ -38,7 +43,8 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 16px;
-    padding: 64px 0
+    padding: 80px 0;
+    align-items: center;
 }
 
 .title {
@@ -56,6 +62,7 @@ a {
     padding-left: 300px;
     display: flex;
     flex-direction: column;
+    max-width: 452px
 }
 
 .right {
@@ -65,9 +72,46 @@ a {
 
 button {
     border-radius: 8px;
-    height: 24px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
     background-color: #3882f6;
     color: white;
     margin-top: 8px;
+}
+
+.small-image {
+    height: auto;
+    width: 168px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 300px;
+    text-align: center;
+}
+
+.middle-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    gap: 48px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 168px;
+    gap: 8px;
+    color: #1f2937a4;
+    font-size: 18px;
 }
