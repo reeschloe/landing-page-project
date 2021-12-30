@@ -15,11 +15,6 @@ body {
     padding: 8px 300px
 }
 
-.header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
 ul {
     list-style: none;
     display: flex;
@@ -73,10 +68,13 @@ a {
 button {
     border-radius: 8px;
     height: 40px;
-    width: 120px;
+    width: 128px;
     background-color: #3882f6;
-    color: white;
+    color: #e5e7eb;
     margin-top: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .small-image {
@@ -135,4 +133,34 @@ button {
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.last-section {
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px 300px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.message {
+    color: #e5e7ebc7;
+    font-size: 18px;
+}
+
+.bottom {
+    border: 2px solid #e5e7eb;
 }
